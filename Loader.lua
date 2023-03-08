@@ -3,7 +3,7 @@ local PlaceId = game.PlaceId
 if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
   if _G.Mode == "Max" then
     loadstring(game:HttpGet"https://raw.githubusercontent.com/Masurix/Uria/main/BloxFruitsMax.lua")()
-    elseif not _G.Mode == "Max" then
+    else
     loadstring(game:HttpGet"https://raw.githubusercontent.com/Masurix/Uria/main/BloxFurit")()
     end
 elseif PlaceId == 2788229376 then
